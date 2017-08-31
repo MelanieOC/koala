@@ -1,0 +1,16 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+.bienvenida{
+	background-image: url('../img/portada.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+
+.koala{
+	width: 100%;
+	height: 100%;
+}
