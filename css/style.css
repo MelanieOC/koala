@@ -2,24 +2,25 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	font-family: 'Montserrat', sans-serif;
+}
 section, footer{
 	padding: 80px 0;
 }
 
-h2{
-	padding-bottom: 50px;
-}
 .navbar-brand, .navbar-nav li a{
-	color: #FFF;
+	color: white;
 	font-weight: bold;
 }
 
-.navbar-toggle .icon-bar{
-	background-color: #757070;
+.bienvenida .navbar-toggle .icon-bar{
+	background-color: white;
 }
 
-.navbar-toggle {
-	border: 1px solid white;
+.bienvenida .navbar-toggle {
+	border: 1px solid #FFF;
 }
 
 .fondo{
@@ -40,20 +41,32 @@ h2{
 }
 
 .text1{
-	padding-top: 120px;
+	padding-top: 180px;
 }
+
 .btn{
 	background-color: #41521F;
 	color: #FFF;
-	font-weight: bold;
+	font-weight: bolder;
+}
+.contenido{
+	padding: 60px;
 }
 
+.contenido span{
+	letter-spacing: 8px;
+	font-weight: bolder;
+}
+
+.contenido i{
+	padding-bottom: 20px;
+}
 .precio, i{
 	color: #FFF;
 	font-size: 5em;
 }
 
-.blanco h1, .blanco h2, .blanco i, .blanco a, footer h3, footer a{
+.blanco h1, .blanco h2, .blanco i, .blanco a, footer span, footer a{
 	color: #A89F68;
 	font-weight: bolder;
 }
@@ -81,4 +94,8 @@ h2{
 footer{
 	background-color: #41521F;
 	color: white;
+}
+
+footer p, .seccion3 p{
+	font-weight: bolder;
 }
